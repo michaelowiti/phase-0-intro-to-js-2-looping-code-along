@@ -9,12 +9,14 @@ function writeCards(arrayString,eventNames){
     return messages
 }
 writeCards(["Guadalupe", "Ollie", "Aki"],"surprise")
-const messages=[]
-function countDown(int){
-    let i=int; while(i>=0) {int--; }
-    console.log(int)}
-
-    console.log(int)
 
 
-countDown(4)
+function countDown(number) {
+  for (let i = number; i >= 0; i--) {
+    console.log(i);
+  }
+}
+
+
+
+
